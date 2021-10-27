@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    color: white;
+}
+.container {
+max-width: 1130px;
+margin: 0 auto;
+
+
+}
+.header {
+    position: absolute;
+    z-index: 100;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1790px;
+    top: 28px;
+    left: 56px;
+
+}
+.header a {
+    display: inline-block;
+    background: #e50914;
+    color: white;
+    align-self: flex-start;
+    padding: 8px 18px;
+    text-decoration: none;
+    border-radius: 3px;
+
+
+}
+
+.main {
+    height: 785px;
+    background: url("../img/bg.png") center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+.main-child {
+    z-index: 1;
+
+}
+
+
+.main h1 {
+    font-size: 64px;
+    max-width: 510px;
+}
+.main span {
+    font-size: 19px;
+}
+.form-cta {
+    display: grid;
+    grid-template-columns: 500px 250px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-top: 8px solid #222;
+    
+}
+.form-cta input {
+    padding: 20px 10px;
+    font-size:  18px;
+    font-family: sans-serif;
+}
+.form-cta button {
+background: red;
+outline: none;
+border: none;
+color: white;
+font-size: 25px;
+text-transform: uppercase;
+
+}
+.main p {
+    font-size: 19px;
+}
+
+.gradient {
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(to top,
+    rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,0.8) 100%);
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.section {
+    background: black;
+    padding: 6rem 0;
+    border-top: 8px solid #222;
+}
+.section h1 {
+    font-size: 50px;
+    margin-bottom: 16px;
+
+
+}
+.section p {
+    font-size: 28px;
+    
+
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.img-tv {
+    position: relative;
+    left: 790px;
+
+}
+.img-tv img {
+    position: relative;
+    z-index: 1;
+
+}
+
+.video-tv {
+    position: absolute;
+    top: 80px;
+    left: 70px;
+    width: 400px;
+
+}
+.device-pile .video-tv {
+    width: 390px;
+    top: 50px;
+    left: 100px;
+}
+.download.grid > div:first-child {
+    order: 2;
+}
+.download.img-tv {
+    order: 1;
+}
+.footer .form-cta {
+    margin-top: 0;
+}
+.footer {
+    padding: 4rem 0 2rem 0;
+    border-top: 8px solid #222;
+    border-top: 8px 9rem;
+    background: black;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+
+
+}
+.footer p {
+    margin-top: 2rem;
+}
